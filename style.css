@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif JP', serif;
+}
+.width-limit{
+    max-width: 1000px;
+    margin: auto;
+    padding : 0 8px;
+}
+header{
+    background-color: #FF2E63;
+}
+header img{
+    max-width : 80px;
+    display: block;
+    margin: auto;
+}
+.main-wrapper{
+    min-height: 80vh;
+}
+footer{
+    background-color: #252A34;
+    color: #EAEAEA;
+    text-align: center;
+    height: 120px;
+    padding-top: 32px;
+}
