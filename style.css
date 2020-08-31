@@ -18,11 +18,21 @@ header img{
 }
 .main-wrapper{
     min-height: 80vh;
+    padding: 64px 0 128px 0;
+    line-height: 280%;
+}
+.main-wrapper img{
+    max-width: 100%;
+    display: block;
+    padding: 16px 0;
+}
+h2{
+    padding-top: 16px;
 }
 footer{
     background-color: #252A34;
     color: #EAEAEA;
     text-align: center;
-    height: 120px;
+    height: 80px;
     padding-top: 32px;
 }
