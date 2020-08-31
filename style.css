@@ -26,6 +26,9 @@ header img{
     display: block;
     padding: 16px 0;
 }
+.main-wrapper a img{
+    max-width: 400px;
+}
 h2{
     padding-top: 16px;
 }
