@@ -39,3 +39,14 @@ footer{
     height: 80px;
     padding-top: 32px;
 }
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 185%;
+    }
+    .main-wrapper{
+        line-height: 180%;
+    }
+    .main-wrapper a img{
+        max-width: 240px;
+    }
+}
