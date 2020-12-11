@@ -1,57 +1,106 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title>修猷館高校 映画制作部</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="active.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@syueifukuoka" />
     <meta property="og:url" content="https://syueifilms.github.io/" />
-<meta property="og:title" content="修猷館高校 映画制作部" /> 
-<meta property="og:description" content="修猷館高校 映画制作部の公式ホームページです。" /> 
-<meta property="og:image" content="https://syueifilms.github.io/syuei-logo-ayecatch.png" />
+    <meta property="og:title" content="修猷館高校 映画制作部" />
+    <meta property="og:description" content="修猷館高校 映画制作部の公式ホームページです。" />
+    <meta property="og:image" content="https://syueifilms.github.io/syuei-logo-ayecatch.png" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176862695-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176862695-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-176862695-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-176862695-1');
+
+    </script>
 
 </head>
+
 <body>
     <header>
         <div class="width-limit">
-            <img src="syuei-logo.png" alt="syuei">
+            <img src="syuei-logo.png" alt="syuei" class="logo">
+            <h1><span class="css-br">修猷館高校 </span>映画制作部</h1>
+            <nav>
+                <ul>
+                    <li><a href="#activities">活動内容</a></li>
+                    <li><a href="#results">実績</a></li>
+                    <li><a href="#sns">SNS</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <div class="main-wrapper">
+    <div class="main-wrapper" style="position: inherit;">
         <div class="width-limit">
-            <h1>修猷館高校 映画制作部</h1>
-            <h2>ツイッター</h2>
-            <a href="https://twitter.com/syueifukuoka"><img src="twitter.png" alt="twitter"></a>
-            <h2>活動内容</h2>
-            修猷館高校映画制作部では、毎月1本のショートムービーの作成をしつつ、<br>
-            「<a href="https://www.eigakoushien.com/">NPO法人映画甲子園主催高校生のためのeiga worldcup</a>」で最優秀賞を取ることを目標とし、<br>
-            毎週木曜日に活動をしています。<br>
-            また最近は3DCGソフトのBlenderを活用して編集を行ったり、<br>
+            <h2 id="activities">活動内容</h2>
+            <p>
+                修猷館高校映画制作部では、毎月1本のショートムービーの作成をしつつ、<br>
+                「<a href="https://www.eigakoushien.com/">NPO法人映画甲子園主催高校生のためのeiga worldcup</a>」で最優秀賞を取ることを目標とし、<br>
+                毎週木曜日に活動をしています。<br>
+                また最近は3DCGソフトのBlenderを活用して編集を行ったり、<br>
+            </p>
             <img src="blender.jpg" alt="blender">
-            新型コロナウィルス対策のため、部会は部室ではなくLINE上で行ったりしています。<br>
-            また、修猷大文化祭のオープニング映像を撮ったりしています。<br>
-            <h2>実績</h2>
-            いぶすき子ども映画祭２０１３　奨励賞　作品名「Before too late」<br>
-            いぶすき子ども映画祭２０１４　指宿市議会議長賞（準グランプリ）作品名「きっといつか」（アジア国際子ども映画祭２０１４にノミネート）<br>
-            いぶすき子ども映画祭２０１６　審査員特別賞 佐藤賞　作品名「ハルに向かって」<br>
-            eiga worldcup ２０１４　地域部門　奨励賞　作品名「共立-ともだち-」<br>
-            eiga worldcup ２０１６　自由部門　佳作　作品名「雨やさめの夜」<br>
-            eiga worldcup ２０１６　地域部門　入選　作品名「私の町」<br>
+            <p>
+                新型コロナウィルス対策のため、部会は部室ではなくLINE上で行ったりしています。<br>
+                また、修猷大文化祭のオープニング映像を撮ったりしています。<br>
+            </p>
+            <h2 id="results">実績</h2>
+            <table rules="rows">
+                <tr>
+                    <td><span class="css-br">いぶすき子ども</span>映画祭 2013</td>
+                    <td>奨励賞　作品名「Before too late」</td>
+                </tr>
+                <tr>
+                    <td><span class="css-br">いぶすき子ども</span>映画祭 2014</td>
+                    <td><span class="css-br">指宿市議会議長賞（準グランプリ）作品名「きっといつか」</span>（アジア国際子ども映画祭2014に<span class="css-no-wrap">ノミネート</span>）</td>
+                </tr>
+                <tr>
+                    <td><span class="css-br">いぶすき子ども</span>映画祭 2016</td>
+                    <td>審査員特別賞 佐藤賞　作品名「ハルに向かって」</td>
+                </tr>
+                <tr>
+                    <td><span class="css-br">eiga worldcup </span>2014 <span class="css-no-wrap">地域部門</span></td>
+                    <td>奨励賞　作品名「共立-ともだち-」</td>
+                </tr>
+                <tr>
+                    <td><span class="css-br">eiga worldcup </span>2016 <span class="css-no-wrap">自由部門</span></td>
+                    <td>佳作　作品名「雨やさめの夜」</td>
+                </tr>
+                <tr>
+                    <td><span class="css-br">eiga worldcup </span>2016 <span class="css-no-wrap">地域部門</span></td>
+                    <td>入選　作品名「私の町」<br></td>
+                </tr>
+                <tr>
+                    <td><span class="css-br">eiga worldcup </span>2020 <span class="css-no-wrap">自由部門</span></td>
+                    <td>入選　作品名「リアル学生ゲーム」<br></td>
+                </tr>
+            </table>
+            <h2 id="sns">SNS</h2>
+            <p>
+                <a href="https://twitter.com/syueifukuoka">
+                    <img src="twitter.png" alt="twitter" class="index-sns">
+                </a>
+            </p>
+            <p>
+                <a href="https://www.instagram.com/syuei.fukuoka/">
+                    <img src="instagram.png" alt="instagram" class="index-sns">
+                </a>
+            </p>
         </div>
-        
     </div>
     <footer>
         <div class="width-limit">
@@ -59,4 +108,5 @@
         </div>
     </footer>
 </body>
+
 </html>
