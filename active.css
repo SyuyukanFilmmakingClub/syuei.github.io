@@ -109,7 +109,14 @@ small {
 
     header {
         padding-top: 8px;
-        height: 50vh;
+        height: auto;
+    }
+
+nav {
+    margin-top: 2vh;
+}
+    nav ul li a{
+        font-size: 1.5rem;
     }
 
     .width-limit {
